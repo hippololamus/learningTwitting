@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AD910EC1C37279F00B62600 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD910EB1C37279F00B62600 /* AppDelegate.swift */; };
+		1AD910EE1C37279F00B62600 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD910ED1C37279F00B62600 /* ViewController.swift */; };
+		1AD910F11C37279F00B62600 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD910EF1C37279F00B62600 /* Main.storyboard */; };
+		1AD910F31C37279F00B62600 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD910F21C37279F00B62600 /* Assets.xcassets */; };
+		1AD910F61C37279F00B62600 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD910F41C37279F00B62600 /* LaunchScreen.storyboard */; };
+		1AD911011C37279F00B62600 /* HippololamusTweetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD911001C37279F00B62600 /* HippololamusTweetsTests.swift */; };
+		1AD9110C1C37279F00B62600 /* HippololamusTweetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD9110B1C37279F00B62600 /* HippololamusTweetsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AD910FD1C37279F00B62600 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AD910E01C37279F00B62600 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AD910E71C37279F00B62600;
+			remoteInfo = HippololamusTweets;
+		};
+		1AD911081C37279F00B62600 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AD910E01C37279F00B62600 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AD910E71C37279F00B62600;
+			remoteInfo = HippololamusTweets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AD910E81C37279F00B62600 /* HippololamusTweets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HippololamusTweets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD910EB1C37279F00B62600 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AD910ED1C37279F00B62600 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AD910F01C37279F00B62600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AD910F21C37279F00B62600 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AD910F51C37279F00B62600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AD910F71C37279F00B62600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AD910FC1C37279F00B62600 /* HippololamusTweetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HippololamusTweetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD911001C37279F00B62600 /* HippololamusTweetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HippololamusTweetsTests.swift; sourceTree = "<group>"; };
+		1AD911021C37279F00B62600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AD911071C37279F00B62600 /* HippololamusTweetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HippololamusTweetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD9110B1C37279F00B62600 /* HippololamusTweetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HippololamusTweetsUITests.swift; sourceTree = "<group>"; };
+		1AD9110D1C37279F00B62600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AD910E51C37279F00B62600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD910F91C37279F00B62600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD911041C37279F00B62600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AD910DF1C37279F00B62600 = {
+			isa = PBXGroup;
+			children = (
+				1AD910EA1C37279F00B62600 /* HippololamusTweets */,
+				1AD910FF1C37279F00B62600 /* HippololamusTweetsTests */,
+				1AD9110A1C37279F00B62600 /* HippololamusTweetsUITests */,
+				1AD910E91C37279F00B62600 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AD910E91C37279F00B62600 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AD910E81C37279F00B62600 /* HippololamusTweets.app */,
+				1AD910FC1C37279F00B62600 /* HippololamusTweetsTests.xctest */,
+				1AD911071C37279F00B62600 /* HippololamusTweetsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AD910EA1C37279F00B62600 /* HippololamusTweets */ = {
+			isa = PBXGroup;
+			children = (
+				1AD910EB1C37279F00B62600 /* AppDelegate.swift */,
+				1AD910ED1C37279F00B62600 /* ViewController.swift */,
+				1AD910EF1C37279F00B62600 /* Main.storyboard */,
+				1AD910F21C37279F00B62600 /* Assets.xcassets */,
+				1AD910F41C37279F00B62600 /* LaunchScreen.storyboard */,
+				1AD910F71C37279F00B62600 /* Info.plist */,
+			);
+			path = HippololamusTweets;
+			sourceTree = "<group>";
+		};
+		1AD910FF1C37279F00B62600 /* HippololamusTweetsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AD911001C37279F00B62600 /* HippololamusTweetsTests.swift */,
+				1AD911021C37279F00B62600 /* Info.plist */,
+			);
+			path = HippololamusTweetsTests;
+			sourceTree = "<group>";
+		};
+		1AD9110A1C37279F00B62600 /* HippololamusTweetsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1AD9110B1C37279F00B62600 /* HippololamusTweetsUITests.swift */,
+				1AD9110D1C37279F00B62600 /* Info.plist */,
+			);
+			path = HippololamusTweetsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AD910E71C37279F00B62600 /* HippololamusTweets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AD911101C37279F00B62600 /* Build configuration list for PBXNativeTarget "HippololamusTweets" */;
+			buildPhases = (
+				1AD910E41C37279F00B62600 /* Sources */,
+				1AD910E51C37279F00B62600 /* Frameworks */,
+				1AD910E61C37279F00B62600 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HippololamusTweets;
+			productName = HippololamusTweets;
+			productReference = 1AD910E81C37279F00B62600 /* HippololamusTweets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AD910FB1C37279F00B62600 /* HippololamusTweetsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AD911131C37279F00B62600 /* Build configuration list for PBXNativeTarget "HippololamusTweetsTests" */;
+			buildPhases = (
+				1AD910F81C37279F00B62600 /* Sources */,
+				1AD910F91C37279F00B62600 /* Frameworks */,
+				1AD910FA1C37279F00B62600 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AD910FE1C37279F00B62600 /* PBXTargetDependency */,
+			);
+			name = HippololamusTweetsTests;
+			productName = HippololamusTweetsTests;
+			productReference = 1AD910FC1C37279F00B62600 /* HippololamusTweetsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1AD911061C37279F00B62600 /* HippololamusTweetsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AD911161C37279F00B62600 /* Build configuration list for PBXNativeTarget "HippololamusTweetsUITests" */;
+			buildPhases = (
+				1AD911031C37279F00B62600 /* Sources */,
+				1AD911041C37279F00B62600 /* Frameworks */,
+				1AD911051C37279F00B62600 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AD911091C37279F00B62600 /* PBXTargetDependency */,
+			);
+			name = HippololamusTweetsUITests;
+			productName = HippololamusTweetsUITests;
+			productReference = 1AD911071C37279F00B62600 /* HippololamusTweetsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AD910E01C37279F00B62600 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "James Harrison";
+				TargetAttributes = {
+					1AD910E71C37279F00B62600 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1AD910FB1C37279F00B62600 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1AD910E71C37279F00B62600;
+					};
+					1AD911061C37279F00B62600 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1AD910E71C37279F00B62600;
+					};
+				};
+			};
+			buildConfigurationList = 1AD910E31C37279F00B62600 /* Build configuration list for PBXProject "HippololamusTweets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AD910DF1C37279F00B62600;
+			productRefGroup = 1AD910E91C37279F00B62600 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AD910E71C37279F00B62600 /* HippololamusTweets */,
+				1AD910FB1C37279F00B62600 /* HippololamusTweetsTests */,
+				1AD911061C37279F00B62600 /* HippololamusTweetsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AD910E61C37279F00B62600 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD910F61C37279F00B62600 /* LaunchScreen.storyboard in Resources */,
+				1AD910F31C37279F00B62600 /* Assets.xcassets in Resources */,
+				1AD910F11C37279F00B62600 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD910FA1C37279F00B62600 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD911051C37279F00B62600 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AD910E41C37279F00B62600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD910EE1C37279F00B62600 /* ViewController.swift in Sources */,
+				1AD910EC1C37279F00B62600 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD910F81C37279F00B62600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD911011C37279F00B62600 /* HippololamusTweetsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD911031C37279F00B62600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD9110C1C37279F00B62600 /* HippololamusTweetsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AD910FE1C37279F00B62600 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AD910E71C37279F00B62600 /* HippololamusTweets */;
+			targetProxy = 1AD910FD1C37279F00B62600 /* PBXContainerItemProxy */;
+		};
+		1AD911091C37279F00B62600 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AD910E71C37279F00B62600 /* HippololamusTweets */;
+			targetProxy = 1AD911081C37279F00B62600 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AD910EF1C37279F00B62600 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AD910F01C37279F00B62600 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AD910F41C37279F00B62600 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AD910F51C37279F00B62600 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AD9110E1C37279F00B62600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AD9110F1C37279F00B62600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AD911111C37279F00B62600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HippololamusTweets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hippololamus.HippololamusTweets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1AD911121C37279F00B62600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HippololamusTweets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hippololamus.HippololamusTweets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1AD911141C37279F00B62600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HippololamusTweetsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hippololamus.HippololamusTweetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HippololamusTweets.app/HippololamusTweets";
+			};
+			name = Debug;
+		};
+		1AD911151C37279F00B62600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HippololamusTweetsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hippololamus.HippololamusTweetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HippololamusTweets.app/HippololamusTweets";
+			};
+			name = Release;
+		};
+		1AD911171C37279F00B62600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HippololamusTweetsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hippololamus.HippololamusTweetsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HippololamusTweets;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1AD911181C37279F00B62600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HippololamusTweetsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hippololamus.HippololamusTweetsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HippololamusTweets;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AD910E31C37279F00B62600 /* Build configuration list for PBXProject "HippololamusTweets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD9110E1C37279F00B62600 /* Debug */,
+				1AD9110F1C37279F00B62600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AD911101C37279F00B62600 /* Build configuration list for PBXNativeTarget "HippololamusTweets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD911111C37279F00B62600 /* Debug */,
+				1AD911121C37279F00B62600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1AD911131C37279F00B62600 /* Build configuration list for PBXNativeTarget "HippololamusTweetsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD911141C37279F00B62600 /* Debug */,
+				1AD911151C37279F00B62600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1AD911161C37279F00B62600 /* Build configuration list for PBXNativeTarget "HippololamusTweetsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD911171C37279F00B62600 /* Debug */,
+				1AD911181C37279F00B62600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AD910E01C37279F00B62600 /* Project object */;
+}
