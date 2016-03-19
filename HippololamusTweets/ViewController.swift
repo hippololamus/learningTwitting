@@ -6,11 +6,13 @@
 //  Copyright © 2016 James Harrison. All rights reserved.
 //
 
-import UIKit
+import WebKit
 import Social
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var twitterWebView: WKWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -32,5 +34,17 @@ class ViewController: UIViewController {
         
         }
     }
+
+    @IBAction func handleShowMyTweetsTapped(sender: UIButton) {
+        guard let url = NSURL(string:"https://twitter.com/hippololatest") else {
+            return
+        }
+        
+        let urlRequest = NSURLRequest(URL: url)
+        
+        twitterWebView.loadRequest(urlRequest)
+    }
+
+
 }
 

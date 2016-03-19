@@ -11,7 +11,6 @@
 		1AD910EE1C37279F00B62600 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD910ED1C37279F00B62600 /* ViewController.swift */; };
 		1AD910F11C37279F00B62600 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD910EF1C37279F00B62600 /* Main.storyboard */; };
 		1AD910F31C37279F00B62600 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD910F21C37279F00B62600 /* Assets.xcassets */; };
-		1AD910F61C37279F00B62600 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD910F41C37279F00B62600 /* LaunchScreen.storyboard */; };
 		1AD911011C37279F00B62600 /* HippololamusTweetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD911001C37279F00B62600 /* HippololamusTweetsTests.swift */; };
 		1AD9110C1C37279F00B62600 /* HippololamusTweetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD9110B1C37279F00B62600 /* HippololamusTweetsUITests.swift */; };
 /* End PBXBuildFile section */
@@ -39,7 +38,6 @@
 		1AD910ED1C37279F00B62600 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1AD910F01C37279F00B62600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1AD910F21C37279F00B62600 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1AD910F51C37279F00B62600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AD910F71C37279F00B62600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AD910FC1C37279F00B62600 /* HippololamusTweetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HippololamusTweetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AD911001C37279F00B62600 /* HippololamusTweetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HippololamusTweetsTests.swift; sourceTree = "<group>"; };
@@ -101,7 +99,6 @@
 				1AD910ED1C37279F00B62600 /* ViewController.swift */,
 				1AD910EF1C37279F00B62600 /* Main.storyboard */,
 				1AD910F21C37279F00B62600 /* Assets.xcassets */,
-				1AD910F41C37279F00B62600 /* LaunchScreen.storyboard */,
 				1AD910F71C37279F00B62600 /* Info.plist */,
 			);
 			path = HippololamusTweets;
@@ -229,7 +226,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AD910F61C37279F00B62600 /* LaunchScreen.storyboard in Resources */,
 				1AD910F31C37279F00B62600 /* Assets.xcassets in Resources */,
 				1AD910F11C37279F00B62600 /* Main.storyboard in Resources */,
 			);
@@ -299,14 +295,6 @@
 				1AD910F01C37279F00B62600 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1AD910F41C37279F00B62600 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1AD910F51C37279F00B62600 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -484,6 +472,7 @@
 				1AD911121C37279F00B62600 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1AD911131C37279F00B62600 /* Build configuration list for PBXNativeTarget "HippololamusTweetsTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +481,7 @@
 				1AD911151C37279F00B62600 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1AD911161C37279F00B62600 /* Build configuration list for PBXNativeTarget "HippololamusTweetsUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +490,7 @@
 				1AD911181C37279F00B62600 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
